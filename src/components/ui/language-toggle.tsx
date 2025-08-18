@@ -11,7 +11,7 @@ export const LanguageToggle = () => {
       variant="outline"
       size="sm"
       onClick={toggleLanguage}
-      className="gap-2 border-white/20 text-white hover:bg-white/10 hover:text-white transition-smooth"
+      className="gap-2 border-primary/20 text-primary hover:bg-primary/10 hover:text-primary transition-smooth"
     >
       <Globe className="h-4 w-4" />
       <span className="font-medium">
